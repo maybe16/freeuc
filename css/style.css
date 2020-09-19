@@ -1,0 +1,376 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Teko:300,400,500");
+*,*:before,*:after {
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	box-sizing:border-box;
+}
+body {
+	background:#ebedf0;
+	-webkit-background-size:cover;
+	-moz-background-size:cover;
+	-o-background-size:cover;
+	background-size:cover;
+	margin: 0;
+	font-family: 'Teko';
+}
+.container {
+	background: url(http://www.photobackgroundhd.com/wp-content/uploads/2018/11/dba4319cb635da987990cc20bceae53e.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	max-width: 400px;
+	height: 700px;
+	border-radius: 5px;
+	overflow: none;
+}
+.container-dark {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 5px;
+}
+.container-line { 
+    height: 5px; 
+    width: 99.3%; 
+    background: url("../img/top_teeth.png") top repeat-x; 
+    z-index: 0;
+    border-radius: 10px;
+}
+.header {
+    width: 100%;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: left;
+    padding: 10px;
+    position: relative;
+    border-radius: 10px;
+}
+.header img {
+    width: 100;
+    height: auto;
+}
+.header button {
+    background: #eaa300;
+    width: 20%;
+    height: auto;
+    padding: 5px;
+    margin-top: 5px;
+    color: #000;
+    font-family: 'Teko';
+    border: none;
+    border-radius: 3px;
+    outline: none;
+    float: right;
+}
+.header button i {
+    padding-top: 3.5px;
+    float: left;
+}
+.box {
+    width: 100%;
+    height: 400px;
+    margin-top: 10%;
+    margin-bottom: 0px;
+    position: absolute;
+    overflow: none;
+}
+.season-logo {
+    width: 100;
+    margin-top: 13%;
+}
+.txt-season {
+    color: #fff;
+    font-size: 30px;
+    font-family: Teko;
+    font-weight: bold;
+    letter-spacing: 2;
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: 3%;
+}
+.txt-season .prev img {
+    width: 20;
+    margin-left: 5%;
+    float: left;
+}
+.txt-season .nextt img {
+    width: 20;
+    margin-right: 5%;
+    float: right;
+}
+.txt-season small {
+    color: #fff;
+    font-size: 15px;
+    font-family: Teko;
+    font-weight: normal;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0;
+}
+.box-notes {
+    background: rgba(255, 255, 255, 0.8);
+    width: 80%;
+    height: auto;
+    margin-top: 5%;
+    padding: 10px;
+    color: #000;
+    font-size: 15px;
+    font-family: Teko;
+    text-align: left;
+    border-radius: 5px;
+}
+.box-notice {
+    color: #000;
+    font-size: 18px;
+    font-family: Teko;
+    text-align: left;
+    text-transform: uppercase;
+}
+.btn-continue {
+    background: #eaa300;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10%;
+    color: #000;
+    font-family: 'Teko';
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+.scroll {
+    overflow: scroll;
+    position: relative;
+    height: 420px;
+    margin-top: 5%;
+    scrollbar-face-color: #ffbb40; 
+    scrollbar-shadow-color: #ffbb40; 
+    scrollbar-highlight-color: #ffbb40; 
+    scrollbar-3dlight-color: #ffbb40; 
+    scrollbar-darkshadow-color: #ffbb40; 
+    scrollbar-track-color: #ffbb40; 
+    scrollbar-arrow-color: #ffbb40;
+}
+.alert {
+    background-image: linear-gradient(to left, rgba(255,0,0,0), rgba(255,187,64,2));
+    width: 93%;
+    height: auto;
+    padding: 7px;
+    margin: 12px;
+    text-align: left;
+    border-left: 3px solid #000;
+}
+.item {
+	background: #fff;
+	width: 30%;
+	height: 110px;
+	margin: 2px;
+	margin-bottom: 35px;
+	color: #fff;
+	font-family: Teko;
+	font-weight: 300;
+	text-align: center;
+	border-radius: 10px;
+	display: inline-block;
+}
+.item img {
+	width: 100%;
+    height: 100%;
+    margin: 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.item button {
+    background: #f2aa00;
+    width: 100%;
+    height: auto;
+    padding: 5px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+    color: #000;
+    font-family: 'Teko';
+    border: none;
+    border-top: 0px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    outline: none;
+}
+.item img, .item button {
+    border: 1px solid #f2aa00;
+}
+.balance {
+    background: #f2aa00;
+	width: 30%;
+	height: auto;
+	color: #000;
+	font-family: Teko;
+	font-weight: 300;
+	text-align: center;
+	margin: 2px;
+	margin-top: 7px;
+	padding: 10px;
+	border: 1px solid #000;
+	border-radius: 5px;
+	display: inline-block;
+}
+.uc {
+	font-size: 20px;
+    font-weight: bold;
+}
+.balance-info {
+    background: #f2aa00;
+    width: 92.5%;
+    height: 108.5px;
+    color: #000;
+    font-family: Teko;
+    margin-top: 5%;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+.balance-info-title {
+    color: #000;
+    text-align: left;
+    padding: 5px;
+    padding-left: 5px;
+    border-bottom: 1px solid #000;
+}
+.balance-info-label {
+    background: none;
+    width: 15%;
+    color: #000;
+    text-align: center;
+    border: 1px solid #000;
+	border-radius: 3px;
+	float: right;
+}
+.balance-info img {
+    width: 50;
+    margin-top: 3%;
+    margin-left: 5%;
+    float: left;
+}
+table {
+	font-family: Teko;
+	border-collapse: collapse;
+	width: 75%;
+	float: right;
+}
+td, th {
+	border: 1px solid #000;
+	border-top: 0px;
+	border-right: 0px;
+	width: 50%;
+	color: #000;
+	font-size: 15px;
+	padding-left: 1%;
+	text-align: left;
+}
+.balance:hover {
+    background: #ffcc57;
+}
+.btn-collect-uc {
+    background: #eaa300;
+    width: 30%;
+    height: auto;
+    padding: 10px;
+    margin-top: 10%;
+    color: #000;
+    font-family: 'Teko';
+    border: none;
+    border-radius: 3px;
+    outline: none;
+}
+.pilihan-login {
+    width: 30%;
+    height: auto;
+    margin: 3px;
+    display: inline-block;
+}
+.pilihan-login img {
+    width: 50;
+}
+.popup {
+	width:100%;
+	height:100%;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:9999;
+}
+.popup-box {
+    background: url(https://ryanmartinproductions.com/image/295993-full_pubg-mobile-wallpaper-hd-1920x1080-coin-dalam-pubg.jpg) no-repeat center center fixed;
+	background-size: 100% 100%;
+	position: relative;
+	margin: 0px auto;
+	margin-top: 10%;
+	margin-bottom: 10%;
+	max-width: 400px;
+	height: 700px;
+	border-radius: 5px;
+}
+input[type=text],input[type=password],input[type=number] {
+	background: none;
+	width: 100%;
+	height: auto;
+	font-size: 15px;
+	font-family: Teko;
+	color: #000;
+	padding: 5px;
+	padding-left: 4px;
+	margin-top: 10px;
+	border: none;
+	border-bottom: 1px solid #000;
+	position: relative;
+	outline: none;
+}
+select {
+	background: none;
+	width: 100%;
+	height: auto;
+	font-size: 15px;
+	font-family: Teko;
+	color: #000;
+	padding: 5px;
+	padding-left: 0px;
+	margin-top: 10px;
+	border: none;
+	border-bottom: 1px solid #000;
+	position: relative;
+	outline: none;
+}
+::placeholder {
+    color: #000;
+}
+fieldset {
+	width: 100%;
+	margin: 0px;
+    padding: 0px;
+    border: none;
+}
+@media only screen and (max-width:600px) {
+    .container {
+        width: 100%;
+        height: 100%;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        border-radius: 0px;
+        padding: 0px;
+    }
+    .header, .container-dark {
+        border-radius: 0px;
+    }
+    .scroll {
+        height: 370px;
+    }
+    .item {
+        height: 100px;
+    }
+    .popup-box {
+	    width: 100%;
+	    margin-top: 0%;
+	}
+}
